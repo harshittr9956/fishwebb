@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fish Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo"><h1>Fish Web</h1></div>
+    <input type="text" placeholder="Search for products, brands..." class="search-bar" />
+    <button class="login-btn">Login</button>
+  </header>
+
+  <!-- Categories -->
+  <nav class="categories">
+    <a href="D:\Program Files\.vscode\electronis.html">Electronis</a>
+    <a href="#">Fashion</a>
+    <a href="#">Home</a>
+    <a href="#">Beauty</a>
+    <a href="website.html">Super Car</a>
+  </nav>
+
+  <!-- Product Grid -->
+  <main class="product-grid">
+    <!-- Example Product Card -->
+    <div class="product-card">
+      <img src="photo/car.jpg" alt="Product Image" />
+      <h3>Car Modifed 1</h3>
+      <p>₹200,000</p>
+      <button onclick="addToCart('Car', 200,000)">Add to Cart</button>
+    </div>
+
+    <!-- Repeat product cards -->
+    <div class="product-card">
+      <img src="photo/download.jpg"
+      height="150"width="250"
+       alt="Product Image" />
+      <h3>Car Modified 2</h3>
+      <p>₹100,000</p>
+      <button onclick="addToCart('Car', 100,000)">Add to Cart</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+
+ </body>
+</html>
